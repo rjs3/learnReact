@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./app"
+import Contador from "./contador"
 
-ReactDOM.render(<App label="Contador" initalValue={10} />,document.getElementById("app"));
+ReactDOM.render(<Contador label="Contador" initalValue={10} />,document.getElementById("app"));
